@@ -4,8 +4,6 @@ The only annoyance I had with switching to ONLYOFFICE was the lack of second-fav
 
 This plugin replicates the fill down (Ctrl+D) behavior from Excel and LibreOffice Calc in ONLYOFFICE Spreadsheet Editor. Select a range and run the plugin to fill the first row's values and formulas down through the selection. Relative formula references are adjusted row by row automatically; absolute references (using `$`) are preserved.
 
-It is not installed by default in cloud, [self-hosted](https://github.com/ONLYOFFICE/DocumentServer) or [desktop](https://github.com/ONLYOFFICE/DesktopEditors) versions of ONLYOFFICE editors.
-
 ## How to use
 
 1. Select a range of cells where the top row contains the values or formulas you want to fill down.
