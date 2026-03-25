@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Fill Down</title>
+    <style>
+        p, a {
+            font-size: 12px;
+            font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        a:link, a:visited, a:active { color: darkgrey; }
+        a:hover { color: #8d8d8d; }
+    </style>
+    <link rel="stylesheet" href="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins.css">
+    <script type="text/javascript">
+        window.Asc.plugin.init = function () {
+            this.resizeWindow(392, 147, 392, 147, 392, 147);
+        };
+        window.Asc.plugin.button = function (id) {
+            this.executeCommand("close", "");
+        };
+    </script>
+</head>
+<body style="padding-left: 20px; padding-right: 20px">
+    <p style="font-size: 15px">Fill Down</p>
+    <p>replicates the fill down (Ctrl+D) behavior from Excel and LibreOffice Calc in ONLYOFFICE Spreadsheet Editor. Relative formula references are adjusted row by row automatically; absolute references (using `$`) are preserved.</p>
+    <p><a href="https://github.com/une4s/onlyoffice-fill-down" target="_blank">Source code.</a></p>
+</body>
+</html>

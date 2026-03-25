@@ -1,0 +1,42 @@
+{
+	"name": "Fill Down",
+	"guid": "asc.{FILLDOWN-0100-_GNU-_TER-RY_PRATCHETT}",
+	"version": "1.00",
+	"baseUrl": "",
+	"variations": [
+		{
+		"description": "Fill down like other spreadsheet editors with Ctrl+d. Install it and then use a keyboard shortcut app on your system to type Alt, E, [whatever letter this ends up as K?].",
+		"icons": ["resources/light.png", "resources/dark.png"],
+		"icons2": [
+			{
+			"style": "light",
+			"100%": {
+				"normal": "resources/light.png"
+				}
+			},
+			{
+			"style": "dark",
+			"100%": {
+			"normal": "resources/dark.png"
+				}
+			}
+		],
+      "store": {
+        "background": {
+          "light": "#444444",
+          "dark": "#444444;"
+        },
+        "icons": {
+          "light": "resources/light.png",
+          "dark": "resources/dark.png"
+        },
+        "categories": ["utilities", "editing"]
+      },
+      "url": "index.html",
+      "type": "panel",
+      "buttons": [],
+      "EditorsSupport": ["cell"]
+    }
+  ]
+}
+
