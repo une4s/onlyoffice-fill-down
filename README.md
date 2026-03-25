@@ -24,7 +24,7 @@ For best results, set up a keyboard shortcut on your system:
 
 ### Easy
 
-Download the .plugin file and choose "Install plugin manually" in the Plugin Manager.
+Download the [latest .plugin release file](https://github.com/une4s/onlyoffice-fill-down/releases/tag/plugin-download) and choose "Install plugin manually" in the Plugin Manager in OPENOFFICE Spreadsheet Editor. You may have to select the "Available Plugins" tab first.
 
 ### Hard
 Copy the plugin folder to your ONLYOFFICE plugins directory:
